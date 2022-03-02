@@ -1,0 +1,23 @@
+{
+    "name": "hidog/ad",
+    "description": "hidog的ad模块",
+    "type": "library",
+    "authors": [
+        {
+            "name": "dabiaoge",
+            "email": "649883823@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "hidog\\": "src/"
+        }
+    }
+}
