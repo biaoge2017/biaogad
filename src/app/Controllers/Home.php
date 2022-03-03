@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Controllers;
+namespace biaogad\App\Controllers;
 
 class Home extends BaseController
 {
 	public function index()
 	{
-		return view('welcome_message');
+		echo 22;
 	}
 }
